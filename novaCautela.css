@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    background-color: white;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+
+}
+
+nav {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.06486344537815125) 9%, rgba(15, 88, 156, 1) 35%, rgba(15, 88, 156, 1) 100%);
+    text-align: center;
+    box-shadow: 1px 2px rgba(128, 128, 128, 0.28);
+
+}
+
+nav li {
+    display: inline-block;
+
+}
+
+
+nav li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.086);
+
+}
+
+.Dropdown-menu {
+    position: absolute;
+    background-color: #0F589C;
+    display: none;
+    width: 210px;
+
+}
+
+.Dropdown-menu a {
+    display: block;
+    color: white;
+
+}
+
+.Dropdown:hover .Dropdown-menu {
+    display: block;
+
+}
+
+.logo-att img {
+    width: 140px;
+    float: left;
+    padding-left: 10px;
+    padding: 7px;
+    cursor: none;
+
+}
+
+.Org {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px auto;
+    padding-top: 10px;
+    height: 100%;
+    width: 45%;
+    border: solid 2px hsla(209, 82%, 34%, 0.369);
+    background-color: rgb(247, 247, 247);
+    border-radius: 10px;
+    box-shadow: -13px 22px 30px 9px rgba(0, 0, 0, 0.1);
+}
+
+.Org:hover {
+    color: rgb(3, 3, 4);
+    border: solid 2px rgba(29, 49, 84, 0.198);
+
+
+}
+
+#texto {
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#subtexto {
+    text-align: center;
+    padding: 20px;
+}
+
+
+.cabecalho {
+    padding: 20px;
+    outline: none;
+    padding-left: 50px;
+
+}
+
+.cabecalho,
+label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+
+    font-weight: bold;
+}
+
+select:hover {
+    background-color: rgb(247, 247, 247);
+    border: 1px sold #CCCC;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+
+.labels {
+    display: flex;
+    flex-direction: column;
+
+    width: 300px;
+    font-weight: bold;
+    gap: 0.5rem;
+}
+
+
+#point {
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+}
+
+
+#recebedor,
+#emitente,
+#email,
+#departamento,
+#discriminacao {
+
+    width: 300px;
+    border: 1px solid #CCCC;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+}
+
+textarea {
+    padding: 20px;
+    width: 100%;
+    border: 1px solid #CCCC;
+    outline: none;
+    border-radius: 5px;
+}
+
+textarea:hover {
+    transform: translateY(-3px);
+    background-color: rgb(247, 247, 247);
+    cursor: text;
+}
+
+.cautela {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.cautela1,
+.cautela2 {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+
+}
+
+
+select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #CCCC;
+    outline: none;
+    border-radius: 5px;
+
+}
+
+#matricula,
+#patrimonio {
+    width: 80px;
+    padding: 5px;
+    border: 1px solid #CCCC;
+    outline: none;
+    border-radius: 5px;
+
+}
+
+#date {
+    width: 110px;
+    padding: 5px;
+    border: 1px solid #CCCC;
+    outline: none;
+    text-transform: lowercase;
+    border-radius: 5px;
+}
+
+#cautelacontador {
+    width: 80px;
+    padding: 5px;
+    border: 1px solid #CCCC;
+    outline: none;
+    border-radius: 5px;
+
+}
+
+.container {
+    margin: 0;
+    padding: 30px;
+
+}
+
+
+
+input:hover {
+    border: 1px solid white;
+    background-color: rgb(247, 247, 247);
+    transform: translateY(-2px);
+    cursor: text;
+}
+
+
+
+.button {
+    background-color: #0F589C;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+    background-color: #000000;
+    transform: translateY(-2px);
+}
+
+.button:active {
+    background-color: #0F589C;
+    transform: translateY(1px);
+}
