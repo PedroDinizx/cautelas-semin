@@ -1,22 +1,46 @@
 * {
-  margin: 0 auto;
-  box-sizing: border-box;
-  padding: 0;
+margin: 0 auto;
+box-sizing: border-box;
+padding: 0;
 }
 
 body {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  font-family: Arial, Helvetica, sans-serif;
-  padding:10%;
+display: flex;
+align-items: center;
+flex-direction: column;
+font-family: Arial, Helvetica, sans-serif;
+padding:10%;
 }
+
+.container-1 {
+display: flex;
+align-items: center;
+}
+
 h1 {
-  padding: 20px;
+padding: 20px;
+margin-right: 34rem;
+font-size: 24px;
+margin-left: -20px;
+font-weight: bold;
+color: #333;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#busca{
+padding: 5px;
+border-color: #0F589C;
+border-end-end-radius: 5px;
+border-end-start-radius: 5px;
+}
+
+#busca:hover{
+border-color: #e6eaed;
 }
 table {
-  width: 70%;
-  border-collapse: collapse;
+width: 70%;
+border-collapse: collapse;
+text-align: center;
 }
 
 tr td{
@@ -25,6 +49,11 @@ tr td{
 }
 tr td:hover{
   border: 1px solid rgb(164, 162, 162);
+}
+
+td #botaoimpressora {
+  width: 35px;
+  height: 24px;
 }
 
 #titulo {
