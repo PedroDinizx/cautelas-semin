@@ -76,7 +76,7 @@ form {
     height: 100%;
     width: 45%;
     border: solid 2px hsla(209, 82%, 34%, 0);
-    background-color: #eee8e858;
+    background-color: #e8eeea58;
     border-radius: 10px;
     box-shadow: -13px 22px 30px 9px rgba(0, 0, 0, 0.1);
 }
@@ -84,7 +84,7 @@ form {
 form:hover {
     color: rgb(3, 3, 4)s;
     border: solid 2px rgba(29, 49, 84, 0.198);
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
 
 
 }
