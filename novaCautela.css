@@ -67,7 +67,7 @@ nav ul li a:hover {
 
 }
 
-.Org {
+form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -75,15 +75,16 @@ nav ul li a:hover {
     padding-top: 10px;
     height: 100%;
     width: 45%;
-    border: solid 2px hsla(209, 82%, 34%, 0.369);
-    background-color: rgb(247, 247, 247);
+    border: solid 2px hsla(209, 82%, 34%, 0);
+    background-color: #eee8e858;
     border-radius: 10px;
     box-shadow: -13px 22px 30px 9px rgba(0, 0, 0, 0.1);
 }
 
-.Org:hover {
-    color: rgb(3, 3, 4);
+form:hover {
+    color: rgb(3, 3, 4)s;
     border: solid 2px rgba(29, 49, 84, 0.198);
+    background-color: aliceblue;
 
 
 }
