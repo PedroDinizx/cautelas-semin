@@ -66,9 +66,4 @@ background: #0F589C;
 color: white;
 }
 
-@media (orientation: portrait) {
-  body {
-    font-size: 18px;
-    align-items: center;
-  }
-}
+

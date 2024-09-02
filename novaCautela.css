@@ -274,3 +274,12 @@ input:hover {
     position: relative;
     bottom: 5px;
 }
+
+footer {
+    background-color:#0F589C;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+}
