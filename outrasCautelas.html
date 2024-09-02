@@ -1,15 +1,52 @@
-<html>
-    <body>
-        <div id="root"></div>
-    </body>
-    <script>
-        //react é uma lib
-        //ele é bom em fazer manipulação de DOM.
-        //Precisa de dois parametros o primeiro no caso do exemplo "Hellow Word e o outro é de onde iremos querer o parametro 2.
-       /*  ReactDOM.render(1, document.getElementById("root")); */
-        const App = () => {
-            return <h1>App</h1>
-        }
-        reactDOM.render(<App />,document.getElementById('root'))
-    </script>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>consultarOutros</title>
+  <link rel="stylesheet" href="/tabelaOutros.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container-1">
+      <h1>Consultar outras cautelas</h1> <!--inserir rodapé de tabela-->
+      <input id="busca" type="text" placeholder="Buscar" > <!-- Input de filtrar na tabela-->
+
+  </div>
+  <table>
+      <tr id="titulo">
+          <td>Nº Cautela</td>
+          <td>Nome</td>
+          <td>Função</td>
+          <td>Departamento</td>
+          <td>Data</td>
+          <td>Retirada</td>
+          <td>Devolução</td>
+          <td>Secretaria</td>
+          <td>Discriminação</td>
+          <td>Patrimônio</td>
+          <td>Imprimir</td>
+    </tr>
+    <tr>
+      <td>a</td>
+      <td>b</td>
+      <td>a</td>
+      <td>a</td>
+      <td>a</td>
+      <td>a</td>
+      <td>a</td>
+      <td>a</td>
+      <td>a</td>
+      <td>a</td>
+      <td><button id="botaoimpressora">🖨️</button></td>
+    </tr>
+
+
+
+  </table>
+
+</body>
 </html>
