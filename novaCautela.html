@@ -7,6 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="novaCautela.css">
     <title>Cautelas PMI</title>
+    <!--Fonte Roboto Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -39,20 +43,21 @@
         </nav>
     </header>
 
-    <form onreset="debug(event)">
+    <form id="form" onreset="debug(event)"> <!--Debug Event reseta o formulario (lembrar de ignorar o contador de cautelas)-->
         <h1 id="texto">Registrar Nova Cautela</h1>
         <h3 id="subtexto">Preencha os campos para realizar emissão de nova cautela: </h3>
 
+
         <div class="cabecalho">
-            <div class="cautela">
-
+            <div class="cautela"> <!--Contador de Cautelas.-->
                 <div class="cautela1">
-                    <label for="Cautelas">N° da Cautela:</label>
-                    <input type="number" name="numero" id="cautelacontador">
+                    <label for="cautelacontador">N° da Cautela:</label>
+                    <input type="number" name="cautelacontador" id="cautelacontador">
                 </div>
-                <div class="cautela2">
 
-                    <label>Tipo de cautela:</label>
+
+                <div class="cautela2">
+                    <label>Tipo de cautela:</label> <!--Select tipos de cautelas.-->
                     <select name="selectca" id="selectca">
                         <option value="cargo">Clique para Selecionar</option>
                         <option value="">Cautela para Tablets</option>
@@ -65,21 +70,18 @@
                 </div>
             </div>
 
+
         </div>
         <section class="labels" id="labels"> <!-- Campos de digitação e preenchimento -->
-
 
             <label for="recebedor">Recebedor:</label>
             <input type="text" name="nome" id="recebedor" placeholder="Nome do recebedor">
             <label for="emitente">Emitente:</label>
             <input type="text" name="nome" id="emitente" placeholder="Nome do emitente">
-
             <label for="email">E-mail:</label>
             <input type="e-mail" name="email" id="email" placeholder="Digite o e-mail">
-
             <label for="departamento">Departamento:</label>
             <input type="text" name="departamento" id="departamento" placeholder="Insira o departamento">
-
             <label for="discriminacao">Discriminação:</label>
             <input type="text" name="discriminação" id="discriminacao" placeholder="Insira a discriminacão">
             <label for="patrimonio">N° de Patrimônio:</label>
@@ -128,23 +130,23 @@
             </select>
             <label for="Date:">Data:</label>
             <input type="date" name="data" id="date">
-
             <label for="Obser">Observações:</label>
             <textarea name="text" id="obser" placeholder="Digite uma observação"></textarea>
-
         </section>
+
         <div class="container"> <!-- Botões -->
-            <button class="button" onclick="imprimir()">Imprimir</button>
-            <button class="button">Salvar</button>
+            <button class="button">Imprimir</button> <!--Mais complexo-->
+            <button class="button">Salvar</button> <!--Necessario tabela em banco de dados-->
             <button type="reset" class="button">Novo</button> <!-- Botão(reset)/ novo funcionando. -->
         </div>
+
     </form>
 
     <!-- onclick="window.location.href='/public/cautelaNotebook.html'" -->
     <!-- Codigo copiado -->
 
 
-    <script src="/main.js"></script>
+    <script src="/main.js"></script> <!--Liga o java Script na Aba separada-->
 
     </script>
 </body>
