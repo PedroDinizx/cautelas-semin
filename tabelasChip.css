@@ -1,7 +1,6 @@
 * {
 margin: 0 auto;
 box-sizing: border-box;
-padding: 0;
 }
 
 body {
@@ -21,7 +20,7 @@ align-items: center;
 
 h1 {text-align: center;
 padding: 20px;
-margin-right: 39rem;
+margin-right: 47rem;
 font-size: 24px;
 margin-left:-30px;
 font-weight: bold;
