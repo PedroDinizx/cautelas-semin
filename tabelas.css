@@ -18,6 +18,16 @@ display: flex;
 align-items: center;
 }
 
+.container-1 .input-icon {
+    position: absolute;
+    top: 188px;
+    left: 77%;
+    transform: translateY(-50%);
+    width: 17px;
+    height: 15px;
+}
+
+
 h1 {
 padding: 20px;
 margin-right: 38rem;
@@ -36,8 +46,10 @@ border-end-start-radius: 5px;
 }
 
 #busca:hover{
-border-color: #e6eaed;
+border-color: #000000;
 }
+
+
 table {
 width: 70%;
 border-collapse: collapse;
