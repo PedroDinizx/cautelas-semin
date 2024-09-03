@@ -66,6 +66,7 @@ background: #0F589C;
 color: white;
 }
 
+<<<<<<< HEAD
 @media (orientation: portrait) {
   body {
     font-size: 18x;
@@ -73,3 +74,6 @@ color: white;
     
   }
 }
+=======
+
+>>>>>>> 6d247d739668c6b28c1fc3892d5b5a22e50ed198
