@@ -68,7 +68,8 @@ color: white;
 
 @media (orientation: portrait) {
   body {
-    font-size: 18px;
+    font-size: 18x;
     align-items: center;
+    
   }
 }
